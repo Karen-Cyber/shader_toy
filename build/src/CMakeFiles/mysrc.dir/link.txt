@@ -1,0 +1,2 @@
+F:\Vs_Code\mingw64\bin\ar.exe qc ..\..\lib\libmysrc.a CMakeFiles/mysrc.dir/glad.c.obj CMakeFiles/mysrc.dir/shader.cpp.obj CMakeFiles/mysrc.dir/stb_image.cpp.obj
+F:\Vs_Code\mingw64\bin\ranlib.exe ..\..\lib\libmysrc.a

@@ -1,0 +1,11 @@
+WINDOW_WID: 600
+WINDOW_HEI: 600
+
+camPos: [0.0, 0.0, -5.0]
+camFrn: [0.0, 0.0, -1.0]
+camWup: [0.0, 1.0, 0.0]
+camSpeed: 2.5
+camSensi: 0.1
+camZoomd: 45.0
+angleYaw: -90.0
+anglePth: 0.0
