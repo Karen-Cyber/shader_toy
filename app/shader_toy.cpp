@@ -30,6 +30,8 @@ unsigned int loadTexture(const char* imagePath);
 
 // global variable
 camera testCam;
+float mousePosX = 0.0f;
+float mousePosY = 0.0f;
 float deltaTime = 0.0f;
 float lastFrame = 0.0f;
 float currFrame = 0.0f;
@@ -203,6 +205,10 @@ int main(int argc, char** argv)
             "iResolution", 
             glm::vec2(float(WINDOW_WID), float(WINDOW_HEI))
         );
+        mainShader.setVec2(
+            "iMousePos",
+            glm::vec2(mousePosX, mousePosY)
+        );
         glDrawArrays(GL_TRIANGLES, 0, 6);
 
 
@@ -276,6 +282,9 @@ void processInput(GLFWwindow* window)
 
 void mouse_callback(GLFWwindow* window, double xpos, double ypos)
 {
+    // update the global mouse pos
+    mousePosX = xpos;
+    mousePosY = -ypos;
     testCam.updateView(xpos, ypos);
 }
 
