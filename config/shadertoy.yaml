@@ -1,5 +1,5 @@
-WINDOW_WID: 800
-WINDOW_HEI: 450
+WINDOW_WID: 1600
+WINDOW_HEI: 900
 
 image_container: ../images/container.jpg
 image_awesomeface: ../images/awesomeface.png
@@ -9,7 +9,7 @@ simple_sqad: ../model/simple_sqad.txt
 simple_plne: ../model/simple_plne.txt
 
 main_vs: ../shader/shader_vert/shadertoy_common_vs.glsl
-main_fs: ../shader/shader_frag/shadertoy_twistedtorus_fs.glsl
+main_fs: ../shader/shader_frag/shadertoy_overthemoon_fs.glsl
 
 sqad_vs: ../shader/shader_vert/shadertoy_maincube_vs.glsl
 sqad_fs: ../shader/shader_frag/shadertoy_maincube_fs.glsl
