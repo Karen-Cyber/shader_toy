@@ -129,6 +129,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+app/CMakeFiles/imguidemo.dir/rule:
+	cd /d I:\VScode_projects\shader_toy\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 app/CMakeFiles/imguidemo.dir/rule
+.PHONY : app/CMakeFiles/imguidemo.dir/rule
+
+# Convenience name for target.
+imguidemo: app/CMakeFiles/imguidemo.dir/rule
+
+.PHONY : imguidemo
+
+# fast build rule for target.
+imguidemo/fast:
+	cd /d I:\VScode_projects\shader_toy\build && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\imguidemo.dir\build.make app/CMakeFiles/imguidemo.dir/build
+.PHONY : imguidemo/fast
+
+# Convenience name for target.
 app/CMakeFiles/frame_buffer.dir/rule:
 	cd /d I:\VScode_projects\shader_toy\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 app/CMakeFiles/frame_buffer.dir/rule
 .PHONY : app/CMakeFiles/frame_buffer.dir/rule
@@ -185,6 +200,33 @@ frame_buffer.cpp.s:
 	cd /d I:\VScode_projects\shader_toy\build && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\frame_buffer.dir\build.make app/CMakeFiles/frame_buffer.dir/frame_buffer.cpp.s
 .PHONY : frame_buffer.cpp.s
 
+imguidemo.obj: imguidemo.cpp.obj
+
+.PHONY : imguidemo.obj
+
+# target to build an object file
+imguidemo.cpp.obj:
+	cd /d I:\VScode_projects\shader_toy\build && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\imguidemo.dir\build.make app/CMakeFiles/imguidemo.dir/imguidemo.cpp.obj
+.PHONY : imguidemo.cpp.obj
+
+imguidemo.i: imguidemo.cpp.i
+
+.PHONY : imguidemo.i
+
+# target to preprocess a source file
+imguidemo.cpp.i:
+	cd /d I:\VScode_projects\shader_toy\build && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\imguidemo.dir\build.make app/CMakeFiles/imguidemo.dir/imguidemo.cpp.i
+.PHONY : imguidemo.cpp.i
+
+imguidemo.s: imguidemo.cpp.s
+
+.PHONY : imguidemo.s
+
+# target to generate assembly for a file
+imguidemo.cpp.s:
+	cd /d I:\VScode_projects\shader_toy\build && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\imguidemo.dir\build.make app/CMakeFiles/imguidemo.dir/imguidemo.cpp.s
+.PHONY : imguidemo.cpp.s
+
 shader_toy.obj: shader_toy.cpp.obj
 
 .PHONY : shader_toy.obj
@@ -221,10 +263,14 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... frame_buffer
+	@echo ... imguidemo
 	@echo ... shader_toy
 	@echo ... frame_buffer.obj
 	@echo ... frame_buffer.i
 	@echo ... frame_buffer.s
+	@echo ... imguidemo.obj
+	@echo ... imguidemo.i
+	@echo ... imguidemo.s
 	@echo ... shader_toy.obj
 	@echo ... shader_toy.i
 	@echo ... shader_toy.s

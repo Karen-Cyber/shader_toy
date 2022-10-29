@@ -4,12 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "I:/VScode_projects/shader_toy/src/ImGui/imgui.cpp" "I:/VScode_projects/shader_toy/build/src/CMakeFiles/imgui.dir/ImGui/imgui.cpp.obj"
-  "I:/VScode_projects/shader_toy/src/ImGui/imgui_demo.cpp" "I:/VScode_projects/shader_toy/build/src/CMakeFiles/imgui.dir/ImGui/imgui_demo.cpp.obj"
-  "I:/VScode_projects/shader_toy/src/ImGui/imgui_draw.cpp" "I:/VScode_projects/shader_toy/build/src/CMakeFiles/imgui.dir/ImGui/imgui_draw.cpp.obj"
-  "I:/VScode_projects/shader_toy/src/ImGui/imgui_impl_glfw.cpp" "I:/VScode_projects/shader_toy/build/src/CMakeFiles/imgui.dir/ImGui/imgui_impl_glfw.cpp.obj"
-  "I:/VScode_projects/shader_toy/src/ImGui/imgui_impl_opengl3.cpp" "I:/VScode_projects/shader_toy/build/src/CMakeFiles/imgui.dir/ImGui/imgui_impl_opengl3.cpp.obj"
-  "I:/VScode_projects/shader_toy/src/ImGui/imgui_widgets.cpp" "I:/VScode_projects/shader_toy/build/src/CMakeFiles/imgui.dir/ImGui/imgui_widgets.cpp.obj"
+  "I:/VScode_projects/shader_toy/src/imgui/imgui.cpp" "I:/VScode_projects/shader_toy/build/src/CMakeFiles/imgui.dir/ImGui/imgui.cpp.obj"
+  "I:/VScode_projects/shader_toy/src/imgui/imgui_demo.cpp" "I:/VScode_projects/shader_toy/build/src/CMakeFiles/imgui.dir/ImGui/imgui_demo.cpp.obj"
+  "I:/VScode_projects/shader_toy/src/imgui/imgui_draw.cpp" "I:/VScode_projects/shader_toy/build/src/CMakeFiles/imgui.dir/ImGui/imgui_draw.cpp.obj"
+  "I:/VScode_projects/shader_toy/src/imgui/imgui_tables.cpp" "I:/VScode_projects/shader_toy/build/src/CMakeFiles/imgui.dir/ImGui/imgui_tables.cpp.obj"
+  "I:/VScode_projects/shader_toy/src/imgui/imgui_widgets.cpp" "I:/VScode_projects/shader_toy/build/src/CMakeFiles/imgui.dir/ImGui/imgui_widgets.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

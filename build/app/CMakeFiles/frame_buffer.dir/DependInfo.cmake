@@ -10,6 +10,18 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../include/GLFW"
+  "../include/KHR"
+  "../include/glad"
+  "../include/glm/simd"
+  "../include/imgui"
+  "../include/imgui/imgui_backends"
+  "../include/myImplement"
+  "../include/stb_image"
+  "../include/yaml-cpp"
+  "../include/yaml-cpp/contrib"
+  "../include/yaml-cpp/node"
+  "../include/yaml-cpp/node/detail"
   "../include"
   )
 

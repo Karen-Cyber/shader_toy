@@ -117,11 +117,116 @@ src/CMakeFiles/mysrc.dir/stb_image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mysrc.dir/stb_image.cpp.s"
 	cd /d I:\VScode_projects\shader_toy\build\src && F:\Vs_Code\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S I:\VScode_projects\shader_toy\src\stb_image.cpp -o CMakeFiles\mysrc.dir\stb_image.cpp.s
 
+src/CMakeFiles/mysrc.dir/imgui/imgui.cpp.obj: src/CMakeFiles/mysrc.dir/flags.make
+src/CMakeFiles/mysrc.dir/imgui/imgui.cpp.obj: src/CMakeFiles/mysrc.dir/includes_CXX.rsp
+src/CMakeFiles/mysrc.dir/imgui/imgui.cpp.obj: ../src/imgui/imgui.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=I:\VScode_projects\shader_toy\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/mysrc.dir/imgui/imgui.cpp.obj"
+	cd /d I:\VScode_projects\shader_toy\build\src && F:\Vs_Code\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\mysrc.dir\imgui\imgui.cpp.obj -c I:\VScode_projects\shader_toy\src\imgui\imgui.cpp
+
+src/CMakeFiles/mysrc.dir/imgui/imgui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mysrc.dir/imgui/imgui.cpp.i"
+	cd /d I:\VScode_projects\shader_toy\build\src && F:\Vs_Code\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E I:\VScode_projects\shader_toy\src\imgui\imgui.cpp > CMakeFiles\mysrc.dir\imgui\imgui.cpp.i
+
+src/CMakeFiles/mysrc.dir/imgui/imgui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mysrc.dir/imgui/imgui.cpp.s"
+	cd /d I:\VScode_projects\shader_toy\build\src && F:\Vs_Code\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S I:\VScode_projects\shader_toy\src\imgui\imgui.cpp -o CMakeFiles\mysrc.dir\imgui\imgui.cpp.s
+
+src/CMakeFiles/mysrc.dir/imgui/imgui_demo.cpp.obj: src/CMakeFiles/mysrc.dir/flags.make
+src/CMakeFiles/mysrc.dir/imgui/imgui_demo.cpp.obj: src/CMakeFiles/mysrc.dir/includes_CXX.rsp
+src/CMakeFiles/mysrc.dir/imgui/imgui_demo.cpp.obj: ../src/imgui/imgui_demo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=I:\VScode_projects\shader_toy\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/mysrc.dir/imgui/imgui_demo.cpp.obj"
+	cd /d I:\VScode_projects\shader_toy\build\src && F:\Vs_Code\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\mysrc.dir\imgui\imgui_demo.cpp.obj -c I:\VScode_projects\shader_toy\src\imgui\imgui_demo.cpp
+
+src/CMakeFiles/mysrc.dir/imgui/imgui_demo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mysrc.dir/imgui/imgui_demo.cpp.i"
+	cd /d I:\VScode_projects\shader_toy\build\src && F:\Vs_Code\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E I:\VScode_projects\shader_toy\src\imgui\imgui_demo.cpp > CMakeFiles\mysrc.dir\imgui\imgui_demo.cpp.i
+
+src/CMakeFiles/mysrc.dir/imgui/imgui_demo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mysrc.dir/imgui/imgui_demo.cpp.s"
+	cd /d I:\VScode_projects\shader_toy\build\src && F:\Vs_Code\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S I:\VScode_projects\shader_toy\src\imgui\imgui_demo.cpp -o CMakeFiles\mysrc.dir\imgui\imgui_demo.cpp.s
+
+src/CMakeFiles/mysrc.dir/imgui/imgui_draw.cpp.obj: src/CMakeFiles/mysrc.dir/flags.make
+src/CMakeFiles/mysrc.dir/imgui/imgui_draw.cpp.obj: src/CMakeFiles/mysrc.dir/includes_CXX.rsp
+src/CMakeFiles/mysrc.dir/imgui/imgui_draw.cpp.obj: ../src/imgui/imgui_draw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=I:\VScode_projects\shader_toy\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/mysrc.dir/imgui/imgui_draw.cpp.obj"
+	cd /d I:\VScode_projects\shader_toy\build\src && F:\Vs_Code\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\mysrc.dir\imgui\imgui_draw.cpp.obj -c I:\VScode_projects\shader_toy\src\imgui\imgui_draw.cpp
+
+src/CMakeFiles/mysrc.dir/imgui/imgui_draw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mysrc.dir/imgui/imgui_draw.cpp.i"
+	cd /d I:\VScode_projects\shader_toy\build\src && F:\Vs_Code\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E I:\VScode_projects\shader_toy\src\imgui\imgui_draw.cpp > CMakeFiles\mysrc.dir\imgui\imgui_draw.cpp.i
+
+src/CMakeFiles/mysrc.dir/imgui/imgui_draw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mysrc.dir/imgui/imgui_draw.cpp.s"
+	cd /d I:\VScode_projects\shader_toy\build\src && F:\Vs_Code\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S I:\VScode_projects\shader_toy\src\imgui\imgui_draw.cpp -o CMakeFiles\mysrc.dir\imgui\imgui_draw.cpp.s
+
+src/CMakeFiles/mysrc.dir/imgui/imgui_impl_glfw.cpp.obj: src/CMakeFiles/mysrc.dir/flags.make
+src/CMakeFiles/mysrc.dir/imgui/imgui_impl_glfw.cpp.obj: src/CMakeFiles/mysrc.dir/includes_CXX.rsp
+src/CMakeFiles/mysrc.dir/imgui/imgui_impl_glfw.cpp.obj: ../src/imgui/imgui_impl_glfw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=I:\VScode_projects\shader_toy\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/mysrc.dir/imgui/imgui_impl_glfw.cpp.obj"
+	cd /d I:\VScode_projects\shader_toy\build\src && F:\Vs_Code\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\mysrc.dir\imgui\imgui_impl_glfw.cpp.obj -c I:\VScode_projects\shader_toy\src\imgui\imgui_impl_glfw.cpp
+
+src/CMakeFiles/mysrc.dir/imgui/imgui_impl_glfw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mysrc.dir/imgui/imgui_impl_glfw.cpp.i"
+	cd /d I:\VScode_projects\shader_toy\build\src && F:\Vs_Code\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E I:\VScode_projects\shader_toy\src\imgui\imgui_impl_glfw.cpp > CMakeFiles\mysrc.dir\imgui\imgui_impl_glfw.cpp.i
+
+src/CMakeFiles/mysrc.dir/imgui/imgui_impl_glfw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mysrc.dir/imgui/imgui_impl_glfw.cpp.s"
+	cd /d I:\VScode_projects\shader_toy\build\src && F:\Vs_Code\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S I:\VScode_projects\shader_toy\src\imgui\imgui_impl_glfw.cpp -o CMakeFiles\mysrc.dir\imgui\imgui_impl_glfw.cpp.s
+
+src/CMakeFiles/mysrc.dir/imgui/imgui_impl_opengl3.cpp.obj: src/CMakeFiles/mysrc.dir/flags.make
+src/CMakeFiles/mysrc.dir/imgui/imgui_impl_opengl3.cpp.obj: src/CMakeFiles/mysrc.dir/includes_CXX.rsp
+src/CMakeFiles/mysrc.dir/imgui/imgui_impl_opengl3.cpp.obj: ../src/imgui/imgui_impl_opengl3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=I:\VScode_projects\shader_toy\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/mysrc.dir/imgui/imgui_impl_opengl3.cpp.obj"
+	cd /d I:\VScode_projects\shader_toy\build\src && F:\Vs_Code\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\mysrc.dir\imgui\imgui_impl_opengl3.cpp.obj -c I:\VScode_projects\shader_toy\src\imgui\imgui_impl_opengl3.cpp
+
+src/CMakeFiles/mysrc.dir/imgui/imgui_impl_opengl3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mysrc.dir/imgui/imgui_impl_opengl3.cpp.i"
+	cd /d I:\VScode_projects\shader_toy\build\src && F:\Vs_Code\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E I:\VScode_projects\shader_toy\src\imgui\imgui_impl_opengl3.cpp > CMakeFiles\mysrc.dir\imgui\imgui_impl_opengl3.cpp.i
+
+src/CMakeFiles/mysrc.dir/imgui/imgui_impl_opengl3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mysrc.dir/imgui/imgui_impl_opengl3.cpp.s"
+	cd /d I:\VScode_projects\shader_toy\build\src && F:\Vs_Code\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S I:\VScode_projects\shader_toy\src\imgui\imgui_impl_opengl3.cpp -o CMakeFiles\mysrc.dir\imgui\imgui_impl_opengl3.cpp.s
+
+src/CMakeFiles/mysrc.dir/imgui/imgui_tables.cpp.obj: src/CMakeFiles/mysrc.dir/flags.make
+src/CMakeFiles/mysrc.dir/imgui/imgui_tables.cpp.obj: src/CMakeFiles/mysrc.dir/includes_CXX.rsp
+src/CMakeFiles/mysrc.dir/imgui/imgui_tables.cpp.obj: ../src/imgui/imgui_tables.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=I:\VScode_projects\shader_toy\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/mysrc.dir/imgui/imgui_tables.cpp.obj"
+	cd /d I:\VScode_projects\shader_toy\build\src && F:\Vs_Code\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\mysrc.dir\imgui\imgui_tables.cpp.obj -c I:\VScode_projects\shader_toy\src\imgui\imgui_tables.cpp
+
+src/CMakeFiles/mysrc.dir/imgui/imgui_tables.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mysrc.dir/imgui/imgui_tables.cpp.i"
+	cd /d I:\VScode_projects\shader_toy\build\src && F:\Vs_Code\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E I:\VScode_projects\shader_toy\src\imgui\imgui_tables.cpp > CMakeFiles\mysrc.dir\imgui\imgui_tables.cpp.i
+
+src/CMakeFiles/mysrc.dir/imgui/imgui_tables.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mysrc.dir/imgui/imgui_tables.cpp.s"
+	cd /d I:\VScode_projects\shader_toy\build\src && F:\Vs_Code\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S I:\VScode_projects\shader_toy\src\imgui\imgui_tables.cpp -o CMakeFiles\mysrc.dir\imgui\imgui_tables.cpp.s
+
+src/CMakeFiles/mysrc.dir/imgui/imgui_widgets.cpp.obj: src/CMakeFiles/mysrc.dir/flags.make
+src/CMakeFiles/mysrc.dir/imgui/imgui_widgets.cpp.obj: src/CMakeFiles/mysrc.dir/includes_CXX.rsp
+src/CMakeFiles/mysrc.dir/imgui/imgui_widgets.cpp.obj: ../src/imgui/imgui_widgets.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=I:\VScode_projects\shader_toy\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/mysrc.dir/imgui/imgui_widgets.cpp.obj"
+	cd /d I:\VScode_projects\shader_toy\build\src && F:\Vs_Code\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\mysrc.dir\imgui\imgui_widgets.cpp.obj -c I:\VScode_projects\shader_toy\src\imgui\imgui_widgets.cpp
+
+src/CMakeFiles/mysrc.dir/imgui/imgui_widgets.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mysrc.dir/imgui/imgui_widgets.cpp.i"
+	cd /d I:\VScode_projects\shader_toy\build\src && F:\Vs_Code\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E I:\VScode_projects\shader_toy\src\imgui\imgui_widgets.cpp > CMakeFiles\mysrc.dir\imgui\imgui_widgets.cpp.i
+
+src/CMakeFiles/mysrc.dir/imgui/imgui_widgets.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mysrc.dir/imgui/imgui_widgets.cpp.s"
+	cd /d I:\VScode_projects\shader_toy\build\src && F:\Vs_Code\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S I:\VScode_projects\shader_toy\src\imgui\imgui_widgets.cpp -o CMakeFiles\mysrc.dir\imgui\imgui_widgets.cpp.s
+
 # Object files for target mysrc
 mysrc_OBJECTS = \
 "CMakeFiles/mysrc.dir/glad.c.obj" \
 "CMakeFiles/mysrc.dir/shader.cpp.obj" \
-"CMakeFiles/mysrc.dir/stb_image.cpp.obj"
+"CMakeFiles/mysrc.dir/stb_image.cpp.obj" \
+"CMakeFiles/mysrc.dir/imgui/imgui.cpp.obj" \
+"CMakeFiles/mysrc.dir/imgui/imgui_demo.cpp.obj" \
+"CMakeFiles/mysrc.dir/imgui/imgui_draw.cpp.obj" \
+"CMakeFiles/mysrc.dir/imgui/imgui_impl_glfw.cpp.obj" \
+"CMakeFiles/mysrc.dir/imgui/imgui_impl_opengl3.cpp.obj" \
+"CMakeFiles/mysrc.dir/imgui/imgui_tables.cpp.obj" \
+"CMakeFiles/mysrc.dir/imgui/imgui_widgets.cpp.obj"
 
 # External object files for target mysrc
 mysrc_EXTERNAL_OBJECTS =
@@ -129,9 +234,16 @@ mysrc_EXTERNAL_OBJECTS =
 ../lib/libmysrc.a: src/CMakeFiles/mysrc.dir/glad.c.obj
 ../lib/libmysrc.a: src/CMakeFiles/mysrc.dir/shader.cpp.obj
 ../lib/libmysrc.a: src/CMakeFiles/mysrc.dir/stb_image.cpp.obj
+../lib/libmysrc.a: src/CMakeFiles/mysrc.dir/imgui/imgui.cpp.obj
+../lib/libmysrc.a: src/CMakeFiles/mysrc.dir/imgui/imgui_demo.cpp.obj
+../lib/libmysrc.a: src/CMakeFiles/mysrc.dir/imgui/imgui_draw.cpp.obj
+../lib/libmysrc.a: src/CMakeFiles/mysrc.dir/imgui/imgui_impl_glfw.cpp.obj
+../lib/libmysrc.a: src/CMakeFiles/mysrc.dir/imgui/imgui_impl_opengl3.cpp.obj
+../lib/libmysrc.a: src/CMakeFiles/mysrc.dir/imgui/imgui_tables.cpp.obj
+../lib/libmysrc.a: src/CMakeFiles/mysrc.dir/imgui/imgui_widgets.cpp.obj
 ../lib/libmysrc.a: src/CMakeFiles/mysrc.dir/build.make
 ../lib/libmysrc.a: src/CMakeFiles/mysrc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=I:\VScode_projects\shader_toy\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library ..\..\lib\libmysrc.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=I:\VScode_projects\shader_toy\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX static library ..\..\lib\libmysrc.a"
 	cd /d I:\VScode_projects\shader_toy\build\src && $(CMAKE_COMMAND) -P CMakeFiles\mysrc.dir\cmake_clean_target.cmake
 	cd /d I:\VScode_projects\shader_toy\build\src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\mysrc.dir\link.txt --verbose=$(VERBOSE)
 

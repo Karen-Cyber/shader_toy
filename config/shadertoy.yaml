@@ -1,5 +1,5 @@
-WINDOW_WID: 1600
-WINDOW_HEI: 900
+WINDOW_WID: 800
+WINDOW_HEI: 450
 
 image_container: ../images/container.jpg
 image_awesomeface: ../images/awesomeface.png

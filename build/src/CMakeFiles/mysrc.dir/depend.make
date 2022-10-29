@@ -5,6 +5,38 @@ src/CMakeFiles/mysrc.dir/glad.c.obj: ../include/KHR/khrplatform.h
 src/CMakeFiles/mysrc.dir/glad.c.obj: ../include/glad/glad.h
 src/CMakeFiles/mysrc.dir/glad.c.obj: ../src/glad.c
 
+src/CMakeFiles/mysrc.dir/ImGui/imgui.cpp.obj: ../include/imgui/imconfig.h
+src/CMakeFiles/mysrc.dir/ImGui/imgui.cpp.obj: ../include/imgui/imgui.h
+src/CMakeFiles/mysrc.dir/ImGui/imgui.cpp.obj: ../include/imgui/imgui_internal.h
+src/CMakeFiles/mysrc.dir/ImGui/imgui.cpp.obj: ../include/imgui/imstb_textedit.h
+src/CMakeFiles/mysrc.dir/ImGui/imgui.cpp.obj: ../src/imgui/imgui.cpp
+
+src/CMakeFiles/mysrc.dir/ImGui/imgui_demo.cpp.obj: ../include/imgui/imconfig.h
+src/CMakeFiles/mysrc.dir/ImGui/imgui_demo.cpp.obj: ../include/imgui/imgui.h
+src/CMakeFiles/mysrc.dir/ImGui/imgui_demo.cpp.obj: ../src/imgui/imgui_demo.cpp
+
+src/CMakeFiles/mysrc.dir/ImGui/imgui_draw.cpp.obj: ../include/imgui/imconfig.h
+src/CMakeFiles/mysrc.dir/ImGui/imgui_draw.cpp.obj: ../include/imgui/imgui.h
+src/CMakeFiles/mysrc.dir/ImGui/imgui_draw.cpp.obj: ../include/imgui/imgui_internal.h
+src/CMakeFiles/mysrc.dir/ImGui/imgui_draw.cpp.obj: ../include/imgui/imstb_textedit.h
+src/CMakeFiles/mysrc.dir/ImGui/imgui_draw.cpp.obj: ../src/imgui/imgui_draw.cpp
+
+src/CMakeFiles/mysrc.dir/ImGui/imgui_impl_glfw.cpp.obj: ../src/imgui/imgui_impl_glfw.cpp
+
+src/CMakeFiles/mysrc.dir/ImGui/imgui_impl_opengl3.cpp.obj: ../include/imgui/imgui_backends/imgui_impl_opengl3_loader.h
+src/CMakeFiles/mysrc.dir/ImGui/imgui_impl_opengl3.cpp.obj: ../src/imgui/imgui_impl_opengl3.cpp
+
+src/CMakeFiles/mysrc.dir/ImGui/imgui_tables.cpp.obj: ../include/imgui/imconfig.h
+src/CMakeFiles/mysrc.dir/ImGui/imgui_tables.cpp.obj: ../include/imgui/imgui.h
+src/CMakeFiles/mysrc.dir/ImGui/imgui_tables.cpp.obj: ../include/imgui/imgui_internal.h
+src/CMakeFiles/mysrc.dir/ImGui/imgui_tables.cpp.obj: ../include/imgui/imstb_textedit.h
+src/CMakeFiles/mysrc.dir/ImGui/imgui_tables.cpp.obj: ../src/imgui/imgui_tables.cpp
+
+src/CMakeFiles/mysrc.dir/ImGui/imgui_widgets.cpp.obj: ../include/imgui/imconfig.h
+src/CMakeFiles/mysrc.dir/ImGui/imgui_widgets.cpp.obj: ../include/imgui/imgui.h
+src/CMakeFiles/mysrc.dir/ImGui/imgui_widgets.cpp.obj: ../include/imgui/imgui_internal.h
+src/CMakeFiles/mysrc.dir/ImGui/imgui_widgets.cpp.obj: ../src/imgui/imgui_widgets.cpp
+
 src/CMakeFiles/mysrc.dir/shader.cpp.obj: ../include/KHR/khrplatform.h
 src/CMakeFiles/mysrc.dir/shader.cpp.obj: ../include/glad/glad.h
 src/CMakeFiles/mysrc.dir/shader.cpp.obj: ../include/glm/common.hpp

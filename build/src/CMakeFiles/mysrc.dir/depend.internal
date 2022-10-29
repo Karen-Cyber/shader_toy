@@ -5,6 +5,38 @@ src/CMakeFiles/mysrc.dir/glad.c.obj
  ../include/KHR/khrplatform.h
  ../include/glad/glad.h
  I:/VScode_projects/shader_toy/src/glad.c
+src/CMakeFiles/mysrc.dir/ImGui/imgui.cpp.obj
+ ../include/imgui/imconfig.h
+ ../include/imgui/imgui.h
+ ../include/imgui/imgui_internal.h
+ ../include/imgui/imstb_textedit.h
+ I:/VScode_projects/shader_toy/src/imgui/imgui.cpp
+src/CMakeFiles/mysrc.dir/ImGui/imgui_demo.cpp.obj
+ ../include/imgui/imconfig.h
+ ../include/imgui/imgui.h
+ I:/VScode_projects/shader_toy/src/imgui/imgui_demo.cpp
+src/CMakeFiles/mysrc.dir/ImGui/imgui_draw.cpp.obj
+ ../include/imgui/imconfig.h
+ ../include/imgui/imgui.h
+ ../include/imgui/imgui_internal.h
+ ../include/imgui/imstb_textedit.h
+ I:/VScode_projects/shader_toy/src/imgui/imgui_draw.cpp
+src/CMakeFiles/mysrc.dir/ImGui/imgui_impl_glfw.cpp.obj
+ I:/VScode_projects/shader_toy/src/imgui/imgui_impl_glfw.cpp
+src/CMakeFiles/mysrc.dir/ImGui/imgui_impl_opengl3.cpp.obj
+ ../include/imgui/imgui_backends/imgui_impl_opengl3_loader.h
+ I:/VScode_projects/shader_toy/src/imgui/imgui_impl_opengl3.cpp
+src/CMakeFiles/mysrc.dir/ImGui/imgui_tables.cpp.obj
+ ../include/imgui/imconfig.h
+ ../include/imgui/imgui.h
+ ../include/imgui/imgui_internal.h
+ ../include/imgui/imstb_textedit.h
+ I:/VScode_projects/shader_toy/src/imgui/imgui_tables.cpp
+src/CMakeFiles/mysrc.dir/ImGui/imgui_widgets.cpp.obj
+ ../include/imgui/imconfig.h
+ ../include/imgui/imgui.h
+ ../include/imgui/imgui_internal.h
+ I:/VScode_projects/shader_toy/src/imgui/imgui_widgets.cpp
 src/CMakeFiles/mysrc.dir/shader.cpp.obj
  ../include/KHR/khrplatform.h
  ../include/glad/glad.h

@@ -142,6 +142,19 @@ mysrc/fast:
 .PHONY : mysrc/fast
 
 #=============================================================================
+# Target rules for targets named imguidemo
+
+# Build rule for target.
+imguidemo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 imguidemo
+.PHONY : imguidemo
+
+# fast build rule for target.
+imguidemo/fast:
+	$(MAKE) $(MAKESILENT) -f app\CMakeFiles\imguidemo.dir\build.make app/CMakeFiles/imguidemo.dir/build
+.PHONY : imguidemo/fast
+
+#=============================================================================
 # Target rules for targets named frame_buffer
 
 # Build rule for target.
@@ -176,6 +189,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... frame_buffer
+	@echo ... imguidemo
 	@echo ... mysrc
 	@echo ... shader_toy
 .PHONY : help
