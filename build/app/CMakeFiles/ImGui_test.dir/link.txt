@@ -1,3 +1,0 @@
-F:\CMake3.19.5\bin\cmake.exe -E rm -f CMakeFiles\ImGui_test.dir/objects.a
-F:\Vs_Code\mingw64\bin\ar.exe cr CMakeFiles\ImGui_test.dir/objects.a @CMakeFiles\ImGui_test.dir\objects1.rsp
-F:\Vs_Code\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\ImGui_test.dir/objects.a -Wl,--no-whole-archive -o ..\..\bin\ImGui_test.exe -Wl,--out-implib,..\..\bin\libImGui_test.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ImGui_test.dir\linklibs.rsp

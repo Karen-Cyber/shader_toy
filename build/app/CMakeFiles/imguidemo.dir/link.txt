@@ -1,3 +1,0 @@
-F:\CMake3.19.5\bin\cmake.exe -E rm -f CMakeFiles\imguidemo.dir/objects.a
-F:\Vs_Code\mingw64\bin\ar.exe cr CMakeFiles\imguidemo.dir/objects.a @CMakeFiles\imguidemo.dir\objects1.rsp
-F:\Vs_Code\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\imguidemo.dir/objects.a -Wl,--no-whole-archive -o ..\..\bin\imguidemo.exe -Wl,--out-implib,..\..\bin\libimguidemo.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\imguidemo.dir\linklibs.rsp

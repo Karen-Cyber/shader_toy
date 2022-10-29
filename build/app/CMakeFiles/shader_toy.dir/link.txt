@@ -1,3 +1,0 @@
-F:\CMake3.19.5\bin\cmake.exe -E rm -f CMakeFiles\shader_toy.dir/objects.a
-F:\Vs_Code\mingw64\bin\ar.exe cr CMakeFiles\shader_toy.dir/objects.a @CMakeFiles\shader_toy.dir\objects1.rsp
-F:\Vs_Code\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\shader_toy.dir/objects.a -Wl,--no-whole-archive -o ..\..\bin\shader_toy.exe -Wl,--out-implib,..\..\bin\libshader_toy.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\shader_toy.dir\linklibs.rsp

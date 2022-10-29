@@ -1,3 +1,0 @@
-F:\CMake3.19.5\bin\cmake.exe -E rm -f CMakeFiles\hello_triangle.dir/objects.a
-F:\Vs_Code\mingw64\bin\ar.exe cr CMakeFiles\hello_triangle.dir/objects.a @CMakeFiles\hello_triangle.dir\objects1.rsp
-F:\Vs_Code\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\hello_triangle.dir/objects.a -Wl,--no-whole-archive -o ..\..\bin\hello_triangle.exe -Wl,--out-implib,..\..\bin\libhello_triangle.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\hello_triangle.dir\linklibs.rsp

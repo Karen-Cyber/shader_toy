@@ -1,3 +1,0 @@
-F:\CMake3.19.5\bin\cmake.exe -E rm -f CMakeFiles\texture.dir/objects.a
-F:\Vs_Code\mingw64\bin\ar.exe cr CMakeFiles\texture.dir/objects.a @CMakeFiles\texture.dir\objects1.rsp
-F:\Vs_Code\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\texture.dir/objects.a -Wl,--no-whole-archive -o ..\..\bin\texture.exe -Wl,--out-implib,..\..\bin\libtexture.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\texture.dir\linklibs.rsp
