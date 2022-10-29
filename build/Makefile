@@ -180,6 +180,19 @@ shader_toy/fast:
 	$(MAKE) $(MAKESILENT) -f app\CMakeFiles\shader_toy.dir\build.make app/CMakeFiles/shader_toy.dir/build
 .PHONY : shader_toy/fast
 
+#=============================================================================
+# Target rules for targets named shader_toy_gui
+
+# Build rule for target.
+shader_toy_gui: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 shader_toy_gui
+.PHONY : shader_toy_gui
+
+# fast build rule for target.
+shader_toy_gui/fast:
+	$(MAKE) $(MAKESILENT) -f app\CMakeFiles\shader_toy_gui.dir\build.make app/CMakeFiles/shader_toy_gui.dir/build
+.PHONY : shader_toy_gui/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -192,6 +205,7 @@ help:
 	@echo ... imguidemo
 	@echo ... mysrc
 	@echo ... shader_toy
+	@echo ... shader_toy_gui
 .PHONY : help
 
 

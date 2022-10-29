@@ -173,6 +173,21 @@ shader_toy/fast:
 	cd /d I:\VScode_projects\shader_toy\build && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\shader_toy.dir\build.make app/CMakeFiles/shader_toy.dir/build
 .PHONY : shader_toy/fast
 
+# Convenience name for target.
+app/CMakeFiles/shader_toy_gui.dir/rule:
+	cd /d I:\VScode_projects\shader_toy\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 app/CMakeFiles/shader_toy_gui.dir/rule
+.PHONY : app/CMakeFiles/shader_toy_gui.dir/rule
+
+# Convenience name for target.
+shader_toy_gui: app/CMakeFiles/shader_toy_gui.dir/rule
+
+.PHONY : shader_toy_gui
+
+# fast build rule for target.
+shader_toy_gui/fast:
+	cd /d I:\VScode_projects\shader_toy\build && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\shader_toy_gui.dir\build.make app/CMakeFiles/shader_toy_gui.dir/build
+.PHONY : shader_toy_gui/fast
+
 frame_buffer.obj: frame_buffer.cpp.obj
 
 .PHONY : frame_buffer.obj
@@ -254,6 +269,33 @@ shader_toy.cpp.s:
 	cd /d I:\VScode_projects\shader_toy\build && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\shader_toy.dir\build.make app/CMakeFiles/shader_toy.dir/shader_toy.cpp.s
 .PHONY : shader_toy.cpp.s
 
+shader_toy_gui.obj: shader_toy_gui.cpp.obj
+
+.PHONY : shader_toy_gui.obj
+
+# target to build an object file
+shader_toy_gui.cpp.obj:
+	cd /d I:\VScode_projects\shader_toy\build && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\shader_toy_gui.dir\build.make app/CMakeFiles/shader_toy_gui.dir/shader_toy_gui.cpp.obj
+.PHONY : shader_toy_gui.cpp.obj
+
+shader_toy_gui.i: shader_toy_gui.cpp.i
+
+.PHONY : shader_toy_gui.i
+
+# target to preprocess a source file
+shader_toy_gui.cpp.i:
+	cd /d I:\VScode_projects\shader_toy\build && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\shader_toy_gui.dir\build.make app/CMakeFiles/shader_toy_gui.dir/shader_toy_gui.cpp.i
+.PHONY : shader_toy_gui.cpp.i
+
+shader_toy_gui.s: shader_toy_gui.cpp.s
+
+.PHONY : shader_toy_gui.s
+
+# target to generate assembly for a file
+shader_toy_gui.cpp.s:
+	cd /d I:\VScode_projects\shader_toy\build && $(MAKE) $(MAKESILENT) -f app\CMakeFiles\shader_toy_gui.dir\build.make app/CMakeFiles/shader_toy_gui.dir/shader_toy_gui.cpp.s
+.PHONY : shader_toy_gui.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -265,6 +307,7 @@ help:
 	@echo ... frame_buffer
 	@echo ... imguidemo
 	@echo ... shader_toy
+	@echo ... shader_toy_gui
 	@echo ... frame_buffer.obj
 	@echo ... frame_buffer.i
 	@echo ... frame_buffer.s
@@ -274,6 +317,9 @@ help:
 	@echo ... shader_toy.obj
 	@echo ... shader_toy.i
 	@echo ... shader_toy.s
+	@echo ... shader_toy_gui.obj
+	@echo ... shader_toy_gui.i
+	@echo ... shader_toy_gui.s
 .PHONY : help
 
 

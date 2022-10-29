@@ -56,4 +56,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "app/CMakeFiles/imguidemo.dir/DependInfo.cmake"
   "app/CMakeFiles/frame_buffer.dir/DependInfo.cmake"
   "app/CMakeFiles/shader_toy.dir/DependInfo.cmake"
+  "app/CMakeFiles/shader_toy_gui.dir/DependInfo.cmake"
   )

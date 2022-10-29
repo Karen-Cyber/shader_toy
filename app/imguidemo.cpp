@@ -30,7 +30,7 @@ int main(void)
     ImGui::CreateContext();     // Setup Dear ImGui context
     ImGui::StyleColorsDark();   // Setup Dear ImGui style
     ImGui_ImplGlfw_InitForOpenGL(window, true);     // Setup Platform/Renderer backends
-    ImGui_ImplOpenGL3_Init("#version 450");
+    ImGui_ImplOpenGL3_Init("#version 330");
 
     bool show_demo_window = true;
     bool show_another_window = false;
