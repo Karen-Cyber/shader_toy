@@ -17,6 +17,9 @@ ENDIF()
 FOREACH (app ${APP_LIST})
     GET_FILENAME_COMPONENT(output ${app} NAME_WE)
     ADD_EXECUTABLE(${output} ${app})
+    TARGET_LINK_LIBRARIES(${output} mysrc)
+
+
     SET(to_be_linked "")
     IF (LIB_LIST)
         FOREACH (lib ${LIB_LIST})
